@@ -1,0 +1,106 @@
+.active-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    width: 80%;
+    max-width: 1080px;
+}
+
+.active-desc{
+    color:black;
+}
+
+.bgpurple{
+    background-color:  rgba(154, 96, 255);
+    color:white;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    
+}
+.bgltpurple{
+    background-color:  rgba(199, 169, 251);
+    color: black;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.bgblue{
+    background-color:  rgba(66, 173, 240);
+    color: white;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.bgltblue{
+    background-color:  rgb(154, 211, 247);
+    color: black;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.activity-page-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.activity{
+    width: 45%;
+    /* min-width: 200px; */
+}
+
+.activity-title:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 600px) {
+    .active-container{
+        width: fit-content;
+        flex-direction: column;
+    }
+
+    .bgblue{
+        background-color:  rgba(154, 96, 255);
+        color: white;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+    .bgltblue{
+        background-color: rgba(199, 169, 251);
+        color: black;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+    }
+    
+}
+
+.activity-title{
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 0.25rem;
+        
+}
+
+.activity-body{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* background-color: rgb(78, 78, 78); */
+    /* background-color: rgba(66, 173, 240); */
+}
+
+@media screen and (max-width: 600px) {
+    .activity{
+        width:80%;
+    }
+    .active-desc{
+        width: 70%;
+    }
+}

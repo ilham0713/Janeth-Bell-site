@@ -1,0 +1,56 @@
+.name{
+    color: black;
+    font-weight: 1000;
+    font-size: 30px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.text-content {
+    flex-grow: 1; /* Allow the text content to grow and fill the available space */
+}
+
+.intro{
+    text-align: left; 
+    color:black;
+}
+
+.first{
+    padding-bottom: 3rem;
+}
+
+.picture{
+    height: auto;
+    width: 10rem;
+    float: left;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .first{
+        padding-bottom: 2rem;
+    }
+
+    .name{
+        font-size: 25px;
+    }
+
+    .intro{
+        font-size: 15px;
+    }
+
+    .picture{
+        height: auto;
+        width: 8rem;
+    }
+    
+}

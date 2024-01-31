@@ -1,0 +1,86 @@
+.ppar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+}
+.home-intro{
+    margin:5rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    height: 20%;
+    justify-items: center;
+    width: 70%;
+}
+
+.name-side {
+    background-color:  rgb(22, 23, 22);
+    font-weight: 1000;
+    font-size: 30px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic-side{
+    height: 100%;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.words{
+    align-self: center;
+}
+
+.front-name{
+    color: white;
+}
+
+.welcome{
+    margin-bottom: 0;
+    font-weight: 700;
+    color: black;
+}
+
+.greeting{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-size: large;
+    color:black;
+}
+
+.home-des{
+    margin-top: 0;
+}
+
+.image{
+    height: 25rem;
+    width: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-intro{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-intro{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: 100%;
+    }
+    .greeting{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .ppar{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}

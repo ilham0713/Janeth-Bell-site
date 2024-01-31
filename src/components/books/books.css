@@ -1,0 +1,202 @@
+.parent{
+    margin-top: 3rem;
+    align-items: center;
+    max-width: 1080px;
+}
+.port__containerb {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.flag-pic{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.port_itemb {
+    padding: 1.2rem;
+    border-radius: 2rem;
+    height: fit-content;
+    width: fit-content;;
+}
+
+.port-item-imageb {
+    height: 100%; 
+    width: 100%; 
+}
+
+.port-item-imageb img {
+    height: 100%; 
+    width: 100%; 
+}
+
+.port_itemb h3{
+    margin: 1.2rem 0 2rem;
+    color: black;
+} 
+
+h2{
+    color: black;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+li{
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 2px 3px;
+}
+
+li:hover{
+    text-decoration: underline;
+} 
+
+.buy_button {
+
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1.25rem;
+    color: white;
+    background-color: rgb(22, 23, 22);;
+    height: fit-content;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.para{
+    color:black;
+    margin: 0;
+}
+
+.pages{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    height: 50%;
+}
+
+.page{
+    height: 100%;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.excerpt{
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    background-color: rgb(22, 23, 22);;
+    padding-bottom: 3rem;
+    border-radius: 10px;
+}
+
+.sneak{
+    padding-left: 3rem;
+    font-weight: 1000;
+    color: white;
+}
+
+.book-sub{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    color: black;
+}
+
+.next-book{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(22, 23, 22);;
+    color: teal;
+    height: fit-content;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+    .port__containerb {
+        grid-template-columns: 1fr; /* Adjust the column proportions for smaller screens */
+        gap: 1.2rem;
+    }
+    h2{
+        margin-bottom:0rem;
+        height: fit-content;
+        width: fit;
+    }
+    .page{
+        width:70%;
+        height :auto;
+    }
+
+    .excerpt{
+        margin: 0;
+    }
+
+    .buy_button {
+        margin-bottom: 1rem;
+    }
+    
+}
+
+/* CSS for smaller screens */
+@media screen and (max-width: 600px) {
+    .port__containerb {
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .fix{
+        margin-left: 2rem;
+    }
+
+    /* Adjust the width and layout for each article in smaller screens */
+    .port_itemb {
+        width: 100%; 
+    }
+    .excerpt{
+        background-color: white;
+        margin-top: 0rem;
+        padding-top: 0rem;
+    }
+
+    .sneak{
+        color: black;
+        margin-top: 0rem;
+    }
+
+    .pages{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h2{
+        margin-bottom:1rem;
+    }
+
+    .parent{
+        margin-top: 0rem;
+    }
+}

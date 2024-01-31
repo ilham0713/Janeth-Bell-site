@@ -1,0 +1,124 @@
+.port__container{
+    display: grid;
+    /* justify-items: center;
+    justify-content: space-evenly; */
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3rem;
+    margin-left: 0rem;
+    margin-right: 0rem; 
+    width: 100%;
+}
+
+.vibe__container {
+    width: var(--containerWidthLg);
+    margin: 0 auto;
+}
+
+.par{
+    color:black;
+    margin-bottom: 1rem;
+}
+
+.port_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+    border: 1px solid transparent;
+    transition: var(--trans400);
+    position: relative;
+    text-decoration: none;
+}
+
+.port_item:hover h3 {
+    text-decoration: underline; /* Underline the text on hover */
+}
+
+.port-item-image {
+    height: 20rem; /* Adjust as needed */
+    width: 13rem; /* Adjust as needed */
+    transition: height 0.3s, width 0.3s; /* Adjust transition timing */
+}
+  
+.port-item-image:hover {
+    height: 22rem; /* Adjust as needed */
+    width: 14rem; /* Adjust as needed */
+}
+
+.port-item-image img {
+    height: 100%; /* Make sure the image fills its container */
+    width: 100%; /* Make sure the image fills its container */
+    object-fit: cover; /* Adjust the object-fit property as needed */
+}
+
+.port_item h3{
+    margin: 1.2rem 0 2rem;
+    text-decoration: none; /* Initially no underline */
+    transition: text-decoration 0.3s; 
+    color: black;
+} 
+
+.port-img-cta{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.page-margins{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1080px;
+}
+
+@media screen and (max-width: 1024px){
+    .port__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+        margin-top: 3rem;
+    }
+    .fix{
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .page-margins{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .port__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 3rem;
+        
+    }
+    .fix{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .page-margins{
+        /* margin-left: 2rem;
+        margin-right: 2rem; */
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 100%;
+    }
+
+    .par{
+        font-size: small;
+        display: flex;
+        margin-bottom: 0;
+    }
+
+    
+
+
+}

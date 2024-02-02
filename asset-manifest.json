@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Janeth-Bell-site/static/css/main.b707db00.css",
-    "main.js": "/Janeth-Bell-site/static/js/main.a1518d09.js",
-    "static/js/787.ac9af1ef.chunk.js": "/Janeth-Bell-site/static/js/787.ac9af1ef.chunk.js",
+    "main.css": "/Janeth-Bell-site/static/css/main.ef9de684.css",
+    "main.js": "/Janeth-Bell-site/static/js/main.471ad04b.js",
+    "static/js/592.095be0aa.chunk.js": "/Janeth-Bell-site/static/js/592.095be0aa.chunk.js",
     "static/media/SIP.png": "/Janeth-Bell-site/static/media/SIP.af0ec499ee0db885e6a3.png",
     "static/media/TQPF.jpg": "/Janeth-Bell-site/static/media/TQPF.9af5dc5a03f9daf0280d.jpg",
     "static/media/PIE.jpg": "/Janeth-Bell-site/static/media/PIE.e066f646e5e18254002b.jpg",
@@ -25,12 +25,12 @@
     "static/media/A4.pdf": "/Janeth-Bell-site/static/media/A4.6cda98d18c1bd857ce27.pdf",
     "static/media/A6.pdf": "/Janeth-Bell-site/static/media/A6.e9e358c975f2471eb246.pdf",
     "index.html": "/Janeth-Bell-site/index.html",
-    "main.b707db00.css.map": "/Janeth-Bell-site/static/css/main.b707db00.css.map",
-    "main.a1518d09.js.map": "/Janeth-Bell-site/static/js/main.a1518d09.js.map",
-    "787.ac9af1ef.chunk.js.map": "/Janeth-Bell-site/static/js/787.ac9af1ef.chunk.js.map"
+    "main.ef9de684.css.map": "/Janeth-Bell-site/static/css/main.ef9de684.css.map",
+    "main.471ad04b.js.map": "/Janeth-Bell-site/static/js/main.471ad04b.js.map",
+    "592.095be0aa.chunk.js.map": "/Janeth-Bell-site/static/js/592.095be0aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b707db00.css",
-    "static/js/main.a1518d09.js"
+    "static/css/main.ef9de684.css",
+    "static/js/main.471ad04b.js"
   ]
 }

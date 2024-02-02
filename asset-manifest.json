@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://mirandastraveladventures.com/static/css/main.ef9de684.css",
-    "main.js": "https://mirandastraveladventures.com/static/js/main.123f2555.js",
+    "main.js": "https://mirandastraveladventures.com/static/js/main.d5a9ecf7.js",
     "static/js/592.095be0aa.chunk.js": "https://mirandastraveladventures.com/static/js/592.095be0aa.chunk.js",
     "static/media/SIP.png": "https://mirandastraveladventures.com/static/media/SIP.af0ec499ee0db885e6a3.png",
     "static/media/TQPF.jpg": "https://mirandastraveladventures.com/static/media/TQPF.9af5dc5a03f9daf0280d.jpg",
@@ -26,11 +26,11 @@
     "static/media/A6.pdf": "https://mirandastraveladventures.com/static/media/A6.e9e358c975f2471eb246.pdf",
     "index.html": "https://mirandastraveladventures.com/index.html",
     "main.ef9de684.css.map": "https://mirandastraveladventures.com/static/css/main.ef9de684.css.map",
-    "main.123f2555.js.map": "https://mirandastraveladventures.com/static/js/main.123f2555.js.map",
+    "main.d5a9ecf7.js.map": "https://mirandastraveladventures.com/static/js/main.d5a9ecf7.js.map",
     "592.095be0aa.chunk.js.map": "https://mirandastraveladventures.com/static/js/592.095be0aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef9de684.css",
-    "static/js/main.123f2555.js"
+    "static/js/main.d5a9ecf7.js"
   ]
 }
